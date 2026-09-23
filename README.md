@@ -36,6 +36,15 @@ python --version
 Python 3.14.6
 
 Clone the repository:
+cd system_app_uninstall_and_recovery
+Need to extract platform-tools-latest-windows.zip all files inside system_app_uninstall_and_recovery
+Or download latest platform-tools
+https://developer.android.com/tools/releases/platform-tools
+
+Example 
+system_app_uninstall_and_recovery/system_app_uninstall_and_recovery.py
+system_app_uninstall_and_recovery/adb.exe
+system_app_uninstall_and_recovery/other all files
 
 Bash
 git clone https://github.com/nano-micro-node/system_app_uninstall_and_recovery.git
@@ -45,7 +54,7 @@ Connect your phone via USB and authorize the USB Debugging prompt on your device
 Run the script:
 
 Bash
-python app_manager.py
+python system_app_uninstall_and_recovery.py
 Option 2: Building a Standalone Executable (.exe)
 You can compile this tool into a portable single-file executable using PyInstaller.
 
